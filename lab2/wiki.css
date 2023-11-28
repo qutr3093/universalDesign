@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat&display=swap');
+/* 
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; */
+
+body{
+  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 16px;
+}
+
+nav {
+  padding: 1em;
+  /* position: sticky; */
+  top:0;
+  background-color: #F4F7F5;
+  }
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+  
+nav a {
+  color: #333333;
+  text-decoration: none;
+  padding: .5em 1em;
+  }
+  
+nav a:hover {
+  color: #4A6D51;
+  font-weight: bold;
+  }
+
+a {
+  color: black;
+}
+a:hover {
+    color: #4A6D51;
+    font-weight: bold;
+    }
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+/* Hide only visually, but have it available for screen readers: */
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  
+  }

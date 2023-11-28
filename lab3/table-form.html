@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="table-form.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#maincontent">Skip to main content</a>
+    <div class="container">
+      <header><h1>Music Wrap</h1></header>
+      <nav>
+        <h2 class="sr-only">Main Navigation</h2>
+        <ul>
+          <li>
+            <a href="#description">about us</a>
+            <span aria-hidden="true" class="material-icons">person</span>
+          </li>
+          <li>
+            <a href="#maincontent">tracks</a>
+            <span aria-hidden="true" class="material-icons">favorite</span>
+          </li>
+          <li>
+            <a href="#recommendations">recommendations</a>
+            <span aria-hidden="true" class="material-icons">recommend</span>
+          </li>
+          <li>
+            <a href="#form">form</a>
+            <span aria-hidden="true" class="material-icons">description</span>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="description">
+        <h2>About Us</h2>
+        <p>
+          We're dedicated to revolutionizing your music discovery experience. We
+          believe music should be deeply personal, which is why our cutting-edge
+          AI powers our Top 10 Songs Generator. This tool tailors monthly
+          playlists based on your unique tastes, taking into account your
+          favorite genres, artists, and mood preferences. Our commitment to
+          freshness ensures that you're always in tune with the latest music
+          trends. What makes us exceptional is our blend of technology and human
+          passion. Our team of music enthusiasts collaborates with our AI to
+          deliver recommendations with a personal touch. Beyond our Top 10
+          generator, we offer a song recommendation feature for every occasion
+          and mood. Let our AI be your personal DJ, providing the perfect
+          soundtrack for your moments. Join us at for a more engaging,
+          enriching, and personal connection to the world of music. Explore,
+          connect, and be inspired through AI-driven music curation.
+        </p>
+      </section>
+
+      <section id="maincontent">
+        <h2>Top Tracks This Month</h2>
+        <!-- <header><h1>Top Tracks This Month</h1></header> -->
+        <table>
+          <caption>
+            Only visible to you
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Title</th>
+              <th scope="col">Artist</th>
+              <th scope="col">Album</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>season</td>
+              <td>wave to earth</td>
+              <td>summer flows 0.02</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>bad</td>
+              <td>wave to earth</td>
+              <td>0.2 flaws and all.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Live For Me</td>
+              <td>Omar Apollo</td>
+              <td>Live For Me</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Lavender</td>
+              <td>Dreaner Boy</td>
+              <td>Love, Nostalgia</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>ONLY</td>
+              <td>LeeHi</td>
+              <td>4 ONLY</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Nobody Gets Me</td>
+              <td>SZA</td>
+              <td>SOS</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Open Arms (feat. Travis Scott)</td>
+              <td>SZA</td>
+              <td>SOS</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Congratulations (feat. Bilal)</td>
+              <td>Mac Miller, Bilal</td>
+              <td>The Divine Feminine</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Water</td>
+              <td>Tyla</td>
+              <td>Water</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Broken Clocks</td>
+              <td>SZA</td>
+              <td>Ctrl</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>EVERYTHING</td>
+              <td>The Black Skirts</td>
+              <td>TEAM BABY</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="recommendations">
+        <h2>Songs recommendations</h2>
+        <table>
+          <caption>
+            Based on your taste!
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Title</th>
+              <th scope="col">Artist</th>
+              <th scope="col">Album</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>dirty dancer</td>
+              <td>Orion Sun</td>
+              <td>dirty dancer</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Let Me Go</td>
+              <td>Daniel Caesar</td>
+              <td>NEVER ENOUGH</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Ice Slippin</td>
+              <td>Omar Apollo</td>
+              <td>Live For Me</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Useless</td>
+              <td>Omar Apollo</td>
+              <td>Apolonio</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>2AM</td>
+              <td>SZA</td>
+              <td>Ctrl</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="form">
+        <h2>Sign Up Form</h2>
+        <form id="myform" method="post">
+          <fieldset>
+            <legend>Subscribe to our newsletter!</legend>
+
+            <label for="username">
+              what is your name?
+              <input type="text" id="username" required />
+            </label>
+
+            <label for="email">
+              what is your email?
+              <input type="email" id="email" required />
+            </label>
+
+            <label for="website">
+              what is your website?
+              <input type="url" id="website" />
+            </label>
+
+            <label for="phone">
+              what is your phone number?
+              <input type="tel" id="phone" minlength="7" />
+            </label>
+
+            <label for="age">
+              how old are you?
+              <input type="number" id="age" />
+            </label>
+
+            <label for="password">
+              what is your favorite password?
+              <input
+                type="text"
+                id="password"
+                maxlength="20"
+                minlength="5"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+!=]).*"
+                required />
+            </label>
+            <ul class="inputRequirements">
+              <li>
+                must be at least 5 characters and contain uppercase, lowercase,
+                number and symbol
+              </li>
+            </ul>
+
+            <input type="submit" value="submit" />
+          </fieldset>
+        </form>
+      </section>
+
+      <footer>
+        Created by Q Tran
+        <address>qutr3093@colorado.edu</address>
+        <small>&copy; 2023</small>
+      </footer>
+    </div>
+  </body>
+</html>
